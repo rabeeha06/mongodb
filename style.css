@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f4f7;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.container {
+
+    width: 100%;
+
+    max-width: 420px;
+
+    padding: 20px;
+}
+
+.card {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+h2 {
+
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+.subtitle {
+
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 30px;
+}
+
+.form-group {
+
+    margin-bottom: 20px;
+}
+
+label {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+}
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #222;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+
+    background: #444;
+}
+
+#message,
+#registerMessage {
+
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+.link {
+
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.link a {
+
+    color: #222;
+
+    font-weight: bold;
+}
